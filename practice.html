@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .myimg {
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+
+    }
+
+    .myimg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .mysecimg{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+       }
+    .mythrdimg{
+        height: 350px;
+        width: 350px;
+        
+    }
+    .mythrdimg img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+
+    }
+    .myimage
+    {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .myimage img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%  ;
+        
+    }
+    .first {
+    text-align: center;
+    }
+
+</style>
+
+<body>
+    <!-- ***carousel-inner  -->
+    <div class="container-fluid">
+        <div class="mybox">
+
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="myimg"> <img
+                                src="https://cdn.pixabay.com/photo/2018/05/11/09/02/technology-3389904_1280.jpg"
+                                class="d-block w-100" alt="..."> </div>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="myimg"> <img
+                                src="https://cdn.pixabay.com/photo/2017/02/11/18/07/rocket-2058255_1280.png"
+                                class="d-block w-100" alt="..."> </div>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="myimg"> <img
+                                src="https://cdn.pixabay.com/photo/2020/07/28/17/04/facebook-5445671_1280.png"
+                                class="d-block w-100" alt="..."> </div>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+<!-- *** First Container  -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="first">
+
+                    <div class="myimage">
+                        <img src="https://indiacsr.in/wp-content/uploads/2023/02/Sundar-Pichai.jpg">
+                    </div>
+                   
+                    <h1>Sundar Pichai
+                        CEO of Google
+                        </h1>
+                    <p>Pichai Sundararajan, better known as Sundar Pichai, is an Indian-born American business executive. He is the chief executive officer of Alphabet Inc. and its subsidiary Google. Pichai began his career as a materials engineer</p>
+                    <button class="btn btn-info">View Details</button>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4">
+                <div class="first">
+                    <div class="myimage">
+                        <img src="https://cdn.britannica.com/99/236599-050-1199AD2C/Mark-Zuckerberg-2019.jpg">
+                    </div>
+                    <h1>Mark Zuckerberg 
+                        CEO of Instagram
+                    </h1>
+                    <p>Mark Elliot Zuckerberg is an American business magnate, computer programmer, internet entrepreneur, and philanthropist. He co-founded the social media website Facebook and its parent company Meta Platforms, of which he is executive chairman, chief executive officer, and controlling shareholder</p>
+                    <button class="btn btn-info">View Details</button>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4">
+                <div class="first">
+                    <div class="myimage">
+                        <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRAP9_TndfODMItGBOueIXGuJwNVtcq1ymGHM-VDDFOG6JH-4HU7XEWC-xkzSCuwCiID-1xb79MDIC0vjI">
+                    </div>
+                    <h1>Elon Musk
+                        CEO of Twitter
+                        </h1>
+                    <p>Elon Reeve Musk is a business magnate and investor. Musk is the founder, chairman, CEO and chief technology officer of SpaceX; angel investor, CEO, product architect and former chairman of Tesla, Inc.</p>
+                    <button class="btn btn-info">View Details</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- *** Second Container -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="second">
+                    <h1>Google</h1>
+                    <p>Google LLC is an American multinational technology company focusing on artificial intelligence, online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, and consumer electronics. </p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="second">
+                    <div class="mythrdimg"> 
+                    <img src="https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_1280.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- *** Third Container -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="second">
+                    <div class="mythrdimg">
+                    <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338392_1280.png" alt="">
+
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="second">
+                    <h1>Instagram</h1>
+                    <p>Instagram, LLC is a photo and video sharing social networking service owned by American company Meta Platforms. The app allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location — via geographical tagging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- *** Forth Container -->
+
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="second">
+                    <h1>Twitter</h1>
+                    <p>Twitter, Inc. was an American social media company based in San Francisco, California. The company operated the social networking service Twitter and previously the Vine short video app and Periscope livestreaming service</p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="second">
+                    <div class="mythrdimg">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/24/07/28/twitter-2170426_1280.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
